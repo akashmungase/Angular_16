@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+.primary-color {
+    color: #1dbfc1;
+}
+
+.form-group {
+    display: flex;
+    background: #fffefe;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.form-group:focus {
+    border: 1px solid rgb(69, 254, 254);
+}
+
+.b-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #eef0f1;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border: 1px solid #1dbfc1;
+    outline: none;
+}
+
+input::placeholder {
+    opacity: 0.9;
+}
+
+.form-group i {
+    margin: 5px 5px 0px 0px;
+    padding: 4px 8px;
+    font-weight: 100;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-register {
+    color: #fff;
+    background-color: #00D0FF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.link-color {
+    color: #ee3158
+}

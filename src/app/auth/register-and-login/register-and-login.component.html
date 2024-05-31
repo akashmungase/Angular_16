@@ -1,0 +1,14 @@
+<div class="row mt-4 m-auto">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 p-3 rounded shadow-sm bg-white text-center d-flex">
+        <button class="btn-register me-1" (click)="navigateToLogin()">Login</button>
+        <button class="btn-register" (click)="navigateToRegister()">Register</button>
+    </div>
+</div>
+
+<ng-container *ngIf="loginPage">
+    <app-login></app-login>
+</ng-container>
+<ng-container *ngIf="!loginPage">
+    <app-register></app-register>
+</ng-container>
