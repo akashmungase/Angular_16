@@ -1,0 +1,78 @@
+.bg-imgae {
+    /* The image used */
+    background-image: url("https://rhythm-admin-template.multipurposethemes.com/images/front-end-img/banners/slider-1.jpg");
+
+    width: 100vw;
+    /* Full viewport width */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+    /* Remove default margins */
+    padding: 0;
+    /* Remove default padding */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-bt {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-style {
+    color: white;
+    font-size: small;
+    font-weight: 300;
+}
+
+.hover-color:hover {
+    color: #1dbfc1 !important;
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+@media (max-width: 767px) {
+    .ask-qus {
+        display: none;
+    }
+}
+
+.brand-logo {
+    width: 170px;
+    padding: 14px 0px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #1dbfc1 !important;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #1dbfc1 !important;
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-item:active{
+    background-color: transparent !important;
+    color: inherit;
+}

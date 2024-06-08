@@ -1,0 +1,119 @@
+<div class="bg-imgae">
+    <header>
+        <div class="border-bt">
+            <div class="container">
+                <div class="top-bar d-flex py-3 text-style">
+                    <div class="col-md-3 ask-qus">
+                        <i class="fa fa-question-circle font-size-12"></i>
+                        <span class="hover-color ms-1">Ask a Question</span>
+                    </div>
+                    <div class="col-md-9 text-end">
+                        <span>
+                            <i class="fa fa-envelope font-size-12"></i>
+                            <span class="hover-color ms-1">info@Rhythm.com</span>
+                        </span>
+                        <span class="ps-4">
+                            <i class="fa fa-phone font-size-12"></i>
+                            <span class="hover-color ms-1">+(1) 123-878-1649</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand text-white brand-logo" [routerLink]="''">
+                    <img [src]="LogoImgae" alt="Brand Logo">
+                </a>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" [routerLink]="''">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" [routerLink]="''">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" [routerLink]="''" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DEPARTMENT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" [routerLink]="''">Department</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" [routerLink]="''">Department Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" [routerLink]="''" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DOCTOR
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" [routerLink]="''">Action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" [routerLink]="''">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" [routerLink]="''">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="''">APPOINTMENT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" [routerLink]="''" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" [routerLink]="['/auth/login']">Login</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" [routerLink]="['/auth/register']">
+                                        Register
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" [routerLink]="['/auth/register-and-login']">
+                                        Register and Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" [routerLink]="''" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                BLOG
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" [routerLink]="''">Action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" [routerLink]="''">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" [routerLink]="''">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" [routerLink]="''">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+</div>
